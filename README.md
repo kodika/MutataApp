@@ -1,3 +1,11 @@
+# Quick Start Links
+__[How to video: Run MutataApp on your Mac](https://youtu.be/8pCRIwWf0Bg)__  
+__[Get your Free to Try license](docs/PrepareProject.md#download-mutata-license)__  
+__[Prepare your Mac](docs/PrepareMac.md)__  
+__[Prepare your Project (Scripts-Only)](#prepare-and-run-your-project)__  
+__[Prepare your Project (Detailed)](docs/PrepareProject.md)__  
+
+
 # MutataApp
 
 [Mutata.io](https://mutata.io) is the first framework that enables you to run Swift iOS applications on Android devices, without rewriting your code.

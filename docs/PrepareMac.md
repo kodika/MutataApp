@@ -20,7 +20,7 @@ In order to be able to compile Swift iOS apps for Android you will need to have:
 - Run `./scripts/01-PrepareMac.sh` to install HomeBrew, JDK 8, CMake.
 - Run `./scripts/02-DownloadLatestLibs.sh` to download latest Swift Android Toolchain, Mutata Swift and Android Libraries.
 - Run `./scripts/03-DownloadNdk.sh` to download the Android NDK r21e from Google.
-- 
+
 ```console
 # Clone this repo (MutataApp)
 git clone https://github.com/kodika/MutataApp
