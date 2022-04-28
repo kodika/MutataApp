@@ -22,6 +22,7 @@ mkdir -p $destinationFontsDir
 mkdir -p $destinationImagesDir
 
 find $MUTATA_BUILD_SWIFT_SOURCES_ANDROID_PATH -name '*.xib' -exec cp -pr '{}' $destinationXibsDir ';'
+find $MUTATA_BUILD_SWIFT_SOURCES_ANDROID_PATH -name '*.storyboard' -exec cp -pr '{}' $destinationXibsDir ';'
 find $MUTATA_BUILD_SWIFT_SOURCES_ANDROID_PATH -name '*.png' -exec cp -pr '{}' $destinationImagesDir ';'
 find $MUTATA_BUILD_SWIFT_SOURCES_ANDROID_PATH -name '*.ttf' -exec cp -pr '{}' $destinationFontsDir ';'
 find $MUTATA_BUILD_SWIFT_SOURCES_ANDROID_PATH -name '*.otf' -exec cp -pr '{}' $destinationFontsDir ';'
