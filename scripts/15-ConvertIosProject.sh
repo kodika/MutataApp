@@ -24,9 +24,9 @@ mkdir -p $out_sources_path
 cp -r $original_sources_path $out_sources_path/Sources
 
 pushd $out_sources_path > /dev/null
-  $MUTATA_LIBS_PATH/swiftSelectorsRewriter --cleanObjc --IBActionSelectorsOutput IBActionsMutata.swift ./Sources
+  $MUTATA_LIBS_PATH/swiftSelectorsRewriter --cleanObjc --IBActionSelectorsOutput IBActionsMutata.swift --performSelectorOutput NSObject+Perform.swift ./Sources
   mv IBActionsMutata.swift ./Sources-Android
-  cp $MUTATA_TEMPLATES_PATH/NSObjectPerformSelectorClass.swift ./Sources-Android
+  mv NSObject+Perform.swift ./Sources-Android
   rm -rf ./Sources-Android/Assets.xcassets/AppIcon.appiconset
   rm -rf ./Sources-Android/Pods
 popd > /dev/null
