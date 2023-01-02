@@ -11,4 +11,4 @@ source $MUTATA_ROOT_PATH/SetupEnv.sh
 mkdir -p $MUTATA_BUILD_PATH/iOSFiles/res
 cp -r $MUTATA_TEMPLATES_PATH/AndroidRes/res/ $MUTATA_BUILD_PATH/iOSFiles/res
 
-echo "Demo Andrfoid resources copied successfully!"
+echo "Android resources copied successfully!"
