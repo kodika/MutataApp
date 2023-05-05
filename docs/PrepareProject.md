@@ -115,7 +115,7 @@ Mutata uses `gradle` and `adb` to build and run your Android projects.
 
 You can run the following script and wait for the app to launch on your device or emulator.
 ```console
-./20-InstallAndRun.sh
+./scripts/20-InstallAndRun.sh
 ```
 
 ### Manual compile
